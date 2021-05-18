@@ -34,3 +34,5 @@ Usage: rbk_nas_job_report.py [-hDv] [-o output_file] [-c creds] [-t token] rubri
 -t | --token= : Specify an API token instead of credentials
 rubrik : Name or IP of a Rubrik node
 </PRE>
+
+The script is written in Python.  It should work with either Python 2 or 3.  It does require the Rubrik SDK library which can be pip'ed in with the name 'rubrik_cdm'.  The rest of the libraries should be standard.
