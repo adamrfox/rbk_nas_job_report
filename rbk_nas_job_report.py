@@ -66,6 +66,7 @@ if __name__ == "__main__":
     password = ""
     rubrik_host = ""
     DEBUG = False
+    VERBOSE = False
     delim = ","
     ofh = ""
     outfile = ""
